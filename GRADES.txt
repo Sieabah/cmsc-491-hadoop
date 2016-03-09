@@ -1,0 +1,53 @@
+Homework 0 -- 10
+
+Homework 1 -- 9.5
+	-1/2, missing list-hdfs.log
+	Also, your code is using the old org.apache.hadoop.mapred package,
+	instead of org.apache.hadoop.mapreduce.  This will work (as you can
+	see), but you should b using the newer mapreduce API from here forward
+	since the older one will be deprecated... someday, maybe.
+
+Homework 2 -- 10
+
+Homework 3 -- 9
+	-1/2, Sqoop export command not in commands file
+	-1/2, flume hdfs sink is not configured to roll over at an appropriate
+	file size
+
+Homework 4 -- 9
+	-1/2, creating a Put object for every cell of the table, should make
+	one Put per row (outside of for(int i = 0; i < 5; i++)
+	-1/2, should add column family filter to only retrieve 'metadata' for
+	Get object
+
+Snowork - 5
+Papers - 4 (2x turned in paper reviews)
+
+----------
+csidell1
+----------
+
+Paper (30% of total): 98/100
+
+Format 20/20 -- All requires sections are included.
+Spelling/Grammar: 20/20 -- Nothing major or minor to report.
+Content 28/30 -- Good work on this paper, your implementation is detailed and
+the discussion of your results is clear and insightful.  The only
+recommendations I have would be to include more details on how the Hadoop
+projects work and how they integrate with one another to build one cohesive
+project.
+Reflects Project 30/30 -- Paper adequately reflects the contents of the
+project.
+
+Project (70% of total): 100/100
+
+Categories: HDFS, Pig, Spark, HBase/Redis, Data Visualization
+
+Feedback: Good work on the implementation.  You certainly had a lot of data
+grooming to do and the pig scripts are not too trivial, expanding your
+knowledge with a Pig UDF to calculate distance.  I am having trouble seeing
+where HBase/Redis was within your code and project, I guess you just didn't
+get around to it?  Regardless, you delivered on the required projects and
+ended up with some cool results.
+
+Overall: 99.4%
